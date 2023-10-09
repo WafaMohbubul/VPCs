@@ -74,10 +74,9 @@ Add VM for app and Database
 DATABASE
 1. EC2
 2. AMI's
-3. Search Ramons name
-5. Use AMI with `tech241-ramon-user-data-ami`
-NOTE: YOU WILL NEED TO USE YOUR OWN AMI IN THE FUTURE. Or create it
-6. Check the box
+3. Search your name
+5. Use Database (DB) AMI
+6. Check the DB AMI box
 3. Launch Instance from AMI
 4. Name = `tech254-wafa-db-test-first-vpc`
 5. Key pair = tech254
@@ -86,7 +85,7 @@ NOTE: YOU WILL NEED TO USE YOUR OWN AMI IN THE FUTURE. Or create it
 8. Subnet > private-subnet
 9. Disable
 10. Create security Group
-11. Custom TPC > Port 27017 > Aywhere
+    11. Custom TPC > Port 27017 > Anywhere
 
 APP
 1. Instances
